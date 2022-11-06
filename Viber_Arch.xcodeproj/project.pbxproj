@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		A4557DAC291820D10088D178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4557DAB291820D10088D178 /* AppDelegate.swift */; };
-		A4557DAE291820D10088D178 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4557DAD291820D10088D178 /* SceneDelegate.swift */; };
-		A4557DB0291820D10088D178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4557DAF291820D10088D178 /* ViewController.swift */; };
 		A4557DB3291820D10088D178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4557DB1291820D10088D178 /* Main.storyboard */; };
 		A4557DB5291820D30088D178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4557DB4291820D30088D178 /* Assets.xcassets */; };
 		A4557DB8291820D30088D178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4557DB6291820D30088D178 /* LaunchScreen.storyboard */; };
+		A4557DC5291823840088D178 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4557DC4291823840088D178 /* User.swift */; };
+		A4557DC729182A200088D178 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4557DC629182A200088D178 /* NetworkLayer.swift */; };
+		A4557DC929182A320088D178 /* UserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4557DC829182A320088D178 /* UserRouter.swift */; };
+		A4557DCB29182A430088D178 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4557DCA29182A430088D178 /* Constants.swift */; };
+		A4557DCF29182AF20088D178 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4557DCE29182AF20088D178 /* UsersViewController.swift */; };
+		A4557DD229182C900088D178 /* UsersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4557DD129182C900088D178 /* UsersTableViewCell.swift */; };
+		A4557DD429182E7C0088D178 /* UsersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4557DD329182E7C0088D178 /* UsersPresenter.swift */; };
+		A4557DD629182EF20088D178 /* UsersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4557DD529182EF20088D178 /* UsersInteractor.swift */; };
+		A4557DD829182EFF0088D178 /* UsersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4557DD729182EFF0088D178 /* UsersRouter.swift */; };
+		A4557DDA29182F3F0088D178 /* UsersProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4557DD929182F3F0088D178 /* UsersProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A4557DA8291820D10088D178 /* Viber_Arch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viber_Arch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4557DAB291820D10088D178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A4557DAD291820D10088D178 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A4557DAF291820D10088D178 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A4557DB2291820D10088D178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4557DB4291820D30088D178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4557DB7291820D30088D178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4557DB9291820D30088D178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4557DC4291823840088D178 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A4557DC629182A200088D178 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		A4557DC829182A320088D178 /* UserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRouter.swift; sourceTree = "<group>"; };
+		A4557DCA29182A430088D178 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A4557DCE29182AF20088D178 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		A4557DD129182C900088D178 /* UsersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewCell.swift; sourceTree = "<group>"; };
+		A4557DD329182E7C0088D178 /* UsersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersPresenter.swift; sourceTree = "<group>"; };
+		A4557DD529182EF20088D178 /* UsersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersInteractor.swift; sourceTree = "<group>"; };
+		A4557DD729182EFF0088D178 /* UsersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRouter.swift; sourceTree = "<group>"; };
+		A4557DD929182F3F0088D178 /* UsersProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,87 @@
 		A4557DAA291820D10088D178 /* Viber_Arch */ = {
 			isa = PBXGroup;
 			children = (
-				A4557DAB291820D10088D178 /* AppDelegate.swift */,
-				A4557DAD291820D10088D178 /* SceneDelegate.swift */,
-				A4557DAF291820D10088D178 /* ViewController.swift */,
-				A4557DB1291820D10088D178 /* Main.storyboard */,
-				A4557DB4291820D30088D178 /* Assets.xcassets */,
-				A4557DB6291820D30088D178 /* LaunchScreen.storyboard */,
+				A4557DCC29182A620088D178 /* Scenes */,
 				A4557DB9291820D30088D178 /* Info.plist */,
+				A4557DC32918234C0088D178 /* NetworkLayer */,
+				A4557DC2291823030088D178 /* Resources */,
+				A4557DC1291822EE0088D178 /* Model */,
+				A4557DC0291822E50088D178 /* Configration */,
+				A4557DBF291822DD0088D178 /* Core */,
 			);
 			path = Viber_Arch;
+			sourceTree = "<group>";
+		};
+		A4557DBF291822DD0088D178 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A4557DAB291820D10088D178 /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A4557DC0291822E50088D178 /* Configration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configration;
+			sourceTree = "<group>";
+		};
+		A4557DC1291822EE0088D178 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4557DC4291823840088D178 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4557DC2291823030088D178 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4557DB4291820D30088D178 /* Assets.xcassets */,
+				A4557DB6291820D30088D178 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A4557DC32918234C0088D178 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A4557DC629182A200088D178 /* NetworkLayer.swift */,
+				A4557DC829182A320088D178 /* UserRouter.swift */,
+				A4557DCA29182A430088D178 /* Constants.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		A4557DCC29182A620088D178 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A4557DCD29182A850088D178 /* Users */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A4557DCD29182A850088D178 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				A4557DD029182C5D0088D178 /* TableViewCells */,
+				A4557DB1291820D10088D178 /* Main.storyboard */,
+				A4557DCE29182AF20088D178 /* UsersViewController.swift */,
+				A4557DD329182E7C0088D178 /* UsersPresenter.swift */,
+				A4557DD529182EF20088D178 /* UsersInteractor.swift */,
+				A4557DD729182EFF0088D178 /* UsersRouter.swift */,
+				A4557DD929182F3F0088D178 /* UsersProtocol.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		A4557DD029182C5D0088D178 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				A4557DD129182C900088D178 /* UsersTableViewCell.swift */,
+			);
+			path = TableViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +226,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4557DB0291820D10088D178 /* ViewController.swift in Sources */,
+				A4557DC729182A200088D178 /* NetworkLayer.swift in Sources */,
+				A4557DD629182EF20088D178 /* UsersInteractor.swift in Sources */,
+				A4557DD429182E7C0088D178 /* UsersPresenter.swift in Sources */,
+				A4557DD829182EFF0088D178 /* UsersRouter.swift in Sources */,
+				A4557DDA29182F3F0088D178 /* UsersProtocol.swift in Sources */,
+				A4557DC5291823840088D178 /* User.swift in Sources */,
+				A4557DCF29182AF20088D178 /* UsersViewController.swift in Sources */,
+				A4557DD229182C900088D178 /* UsersTableViewCell.swift in Sources */,
 				A4557DAC291820D10088D178 /* AppDelegate.swift in Sources */,
-				A4557DAE291820D10088D178 /* SceneDelegate.swift in Sources */,
+				A4557DC929182A320088D178 /* UserRouter.swift in Sources */,
+				A4557DCB29182A430088D178 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
