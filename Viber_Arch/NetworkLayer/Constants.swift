@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct Constants{
+    static let baseURL = "https://api.myjson.com/"
+    static let usersEndpoint = "bins/ozuf8"
+}

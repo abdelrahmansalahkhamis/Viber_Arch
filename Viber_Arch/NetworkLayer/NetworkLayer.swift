@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import Alamofire
+
+class NetworkLayer{
+    func request(completionHandler: @escaping(Any?, String?) -> ()){
+        
+    }
+}
