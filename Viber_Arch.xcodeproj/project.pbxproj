@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B68B4FE291FC42D008DA12E /* UsersWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68B4FD291FC42D008DA12E /* UsersWorker.swift */; };
 		A4557DAC291820D10088D178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4557DAB291820D10088D178 /* AppDelegate.swift */; };
 		A4557DB3291820D10088D178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4557DB1291820D10088D178 /* Main.storyboard */; };
 		A4557DB5291820D30088D178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4557DB4291820D30088D178 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		5EE541BD0138129E0090A916 /* Pods-Viber_Arch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viber_Arch.release.xcconfig"; path = "Target Support Files/Pods-Viber_Arch/Pods-Viber_Arch.release.xcconfig"; sourceTree = "<group>"; };
+		9B68B4FD291FC42D008DA12E /* UsersWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersWorker.swift; sourceTree = "<group>"; };
 		A4557DA8291820D10088D178 /* Viber_Arch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viber_Arch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4557DAB291820D10088D178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4557DB2291820D10088D178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +68,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9B68B4FC291FC41F008DA12E /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				9B68B4FD291FC42D008DA12E /* UsersWorker.swift */,
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
 		A4557D9F291820D10088D178 = {
 			isa = PBXGroup;
 			children = (
@@ -87,12 +97,12 @@
 		A4557DAA291820D10088D178 /* Viber_Arch */ = {
 			isa = PBXGroup;
 			children = (
+				9B68B4FC291FC41F008DA12E /* Workers */,
 				A4557DCC29182A620088D178 /* Scenes */,
 				A4557DB9291820D30088D178 /* Info.plist */,
 				A4557DC32918234C0088D178 /* NetworkLayer */,
 				A4557DC2291823030088D178 /* Resources */,
 				A4557DC1291822EE0088D178 /* Model */,
-				A4557DC0291822E50088D178 /* Configration */,
 				A4557DBF291822DD0088D178 /* Core */,
 			);
 			path = Viber_Arch;
@@ -104,13 +114,6 @@
 				A4557DAB291820D10088D178 /* AppDelegate.swift */,
 			);
 			path = Core;
-			sourceTree = "<group>";
-		};
-		A4557DC0291822E50088D178 /* Configration */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Configration;
 			sourceTree = "<group>";
 		};
 		A4557DC1291822EE0088D178 /* Model */ = {
@@ -176,7 +179,6 @@
 				C8D916F5A2786644A1BBCEDD /* Pods-Viber_Arch.debug.xcconfig */,
 				5EE541BD0138129E0090A916 /* Pods-Viber_Arch.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -303,6 +305,7 @@
 				A4557DC5291823840088D178 /* User.swift in Sources */,
 				A4557DCF29182AF20088D178 /* UsersViewController.swift in Sources */,
 				A4557DD229182C900088D178 /* UsersTableViewCell.swift in Sources */,
+				9B68B4FE291FC42D008DA12E /* UsersWorker.swift in Sources */,
 				A4557DAC291820D10088D178 /* AppDelegate.swift in Sources */,
 				A4557DC929182A320088D178 /* UserRouter.swift in Sources */,
 				A4557DCB29182A430088D178 /* Constants.swift in Sources */,
