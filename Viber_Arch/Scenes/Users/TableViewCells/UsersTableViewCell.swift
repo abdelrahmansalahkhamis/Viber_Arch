@@ -7,8 +7,10 @@
 
 import Foundation
 import UIKit
+import Kingfisher
 
-class UsersTableViewCell: UITableViewCell{
+class UsersTableViewCell: UITableViewCell, UsersCellView{
+    
     @IBOutlet weak var userImageView: UIImageView!
     @IBOutlet weak var userName: UILabel!
     @IBOutlet weak var registrationDate: UILabel!
@@ -22,5 +24,12 @@ class UsersTableViewCell: UITableViewCell{
     
     func setupImageView(){
         userImageView.layer.cornerRadius = userImageView.frame.height / 2
+    }
+    
+    func configure(viewModel: UserViewModel) {
+        //userImageView.kf.setimage(with: viewModel.avatar)
+        userImageView.kf.setImage(with: viewModel.avatar)
+        userName.text = viewModel.fullname
+        registrationDate.text = viewModel.registrationDate
     }
 }
